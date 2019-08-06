@@ -23,7 +23,7 @@ class DatasetProblemGuideline(AbstractDatasetProblemGuideline):
     raise NotImplementedError()
   def iter_raw_examples(self):
     # read directly from the files
-	# yields an example (tuple of python variables) (e.g. (question, answer, background))
+    # yields an example (tuple of python variables) (e.g. (question, answer, background))
     raise NotImplementedError()
   def __iter__(self): raise NotImplementedError()
   @property
